@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Course Registration form</h1>
+    <form action="">
+        <fieldset>
+            <legend>Personal details</legend>
+            <table>
+            <tr>
+                <td><label for="">First Name</label></td>
+                <td><input type="text" required placeholder="ex:prasad" name="fn"size="10">
+                    <span>Enter your name:</p>
+                </td>
+            </tr>
+             <tr>
+                <td><label for="">Last name</label></td>
+                <td><input type="text"required placeholder="ex:bontha" name="Last name">
+                <span>Enter your last-name</span></td>
+            </tr>
+             <tr>
+                <td><label for="">Mobile number</label></td>
+                <td><input type="text"required placeholder="ex:9353622034" name="mob">
+                <span>Enter your mobile-number</span></td>
+            </tr>
+            <tr>
+                <td><label for="">Gmail</label></td>
+                <td><input type="email"required placeholder="ex:prasad@gmail.com" name="mail">
+                <!-- <span>Enter gmail</span></td> -->
+            <img src="tick.png" alt="" id="valid"> 
+            <img src="wrong.png" alt="" id="invalid"> 
+
+            </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Password</label>
+                </td>
+                <td>
+                    <input type="text" required maxlength="8" required placeholder="min 8 characters">
+                    <span>Enter password</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Confirm</label>
+                </td>
+                <td>
+                    <input type="text" required maxlength="8" required placeholder="min 8 characters">
+                    <span>Confirm password</span>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">DOB</label></td>
+                <td><input type="date" name="dob">
+                <span>Confirm password</span></td>
+            </tr>
+            <tr>
+                <td><label for="">Age</label></td>
+                <td><input type="text" size="2">
+                    <span>Enter age</span>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">Gender</td></label>
+                <td>
+                    <input type="radio"name="gender"><label for="">Male</label>
+                    <input type="radio"name="gender"><label for="">Female</label>
+                    <input type="radio"name="gender"><label for="">Others</label>
+                </td>
+            </tr>
+             <tr>
+                <td><label for="">select country</label></td>
+
+                <td>
+                    <select name="country" id="country">
+                        <option value="">India</option>
+                        <option value="">Japan</option>
+                        <option value="">USA</option>
+                    </select>
+                </td>
+            </tr>
+             <tr>
+                <td><label for="">Upload file</label></td>
+                <td><input type="file"></td>
+            </tr>
+             <tr>
+                <td><input type="reset" value="reset"></td>
+             </tr>
+               
+            
+            </table>
+        </fieldset>
+    </form>
+    <form action="">
+        <fieldset>
+            <legend>Course details</legend>
+            <table>
+             
+                <label for="">Select Course</label></td><br>
+              
+               <select name="" id=""><br>
+                    <option value="">Python fullstack</option>
+                    <option value="">java fullstack</option><br>
+                </select><br>
+                  &nbsp;  &nbsp;
+                <label for="">Delivery mode</label>
+                 <input type="radio" name="select">Offline
+                    <input type="radio" name="select">Online
+                     <br>
+                    <label for="">INSTITUTE NAME </label> 
+                   <input type="TAP ACADEMY" value="TAP ACADEMY"><br>
+               
+                   
+              
+               <label for="">Comments</label><br>
+                <textarea name="comments" id="" rows="5" cols="12"></textarea>
+              </tr>
+            </table>
+        </fieldset>
+    </form> <br>
+    <input type="submit">
+    
+</body>
+</html>

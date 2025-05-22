@@ -1,0 +1,94 @@
+body {
+background-color: black;
+color: aqua;
+  font-family: "Product Sans", sans-serif;
+  font-family: "Product Sans Thin", sans-serif;
+  font-family: "Product Sans Light", sans-serif;
+  font-family: "Product Sans Medium", sans-serif;
+  font-family: "Product Sans Black", sans-serif;
+}
+*{
+  @import url("https://fonts.cdnfonts.com/css/google-sans");
+
+}
+form{
+  width: 500px;
+}
+fieldset{
+  border: 3px solid green;
+  border-radius: 10px;
+}
+input:required{
+  border: 2px solid purple;
+}
+input:optional{
+  border: 3px solid greenyellow;
+}
+input:read-only{
+  background-color: cornflowerblue;
+  border: 3px dotted mediumpurple;
+  color:blue;
+}
+input[type="radio"]:checked{
+ height: 20px;
+ width: 20px;
+
+}
+input[type="radio"]:checked+label{
+  color:rgb(236, 222, 23);
+  cursor: pointer;
+}
+input[type="submit"]{
+  border: 3px dashed #5ab109;
+  border-radius: 10px;
+  background-color: red;
+  
+}
+input[type="reset"]{
+  background-color: purple;
+  border-radius: 10px;
+  border:4px dashed rgb(10, 227, 64);
+  color: aliceblue;
+}
+select:hover{
+  border-radius: 10px solid orange;
+  background-color: aquamarine;
+  cursor: pointer;
+}
+input:focus{
+  background-color: orange;
+  border-radius: 30px dotted yellow;
+}
+input[type="text"]+span{
+  display: none;
+  background-color: blue;
+}
+input[type="text"]:hover+span{
+  display:inline;
+  background-color: blue;
+}
+input[type="date"]+span{
+  display:none;
+  background-color: blue;
+}
+input[type="date"]:hover+span{
+  display:inline;
+  background-color: blue;
+}
+img{
+  display: none;
+}
+input[type="email"]:focus:valid~img#valid{
+  display: inline;
+}
+input[type="email"]:focus:invalid~img#invalid{
+  display: inline;
+}
+#valid{
+  height:20px;
+  width:20px;
+}
+#invalid{
+  height:20px;
+  width:20px;
+}
