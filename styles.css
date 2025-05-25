@@ -92,3 +92,11 @@ input[type="email"]:focus:invalid~img#invalid{
   height:20px;
   width:20px;
 }
+#first:hover{
+  border-color: rgb(255, 204, 0);
+  box-shadow: 10px 20px 30px yellowgreen;
+}
+#second:hover{
+  border-color: rgb(225, 186, 31);
+  box-shadow: 10px 20px 30px rgb(181, 114, 25);
+}
